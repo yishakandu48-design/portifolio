@@ -394,3 +394,82 @@ i {
 .footer i {
   color: #8b5cf6;
 }
+/* mobile */
+@media (max-width: 810px) {
+  .padding {
+    padding: 20px 30px;
+  }
+
+  header.flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header .navbar ul {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .hero.grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .heroLeft ul.flex {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero .heroLeft h1 {
+    font-size: 2rem;
+  }
+
+  .hero .heroLeft h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero img {
+    max-width: 300px;
+  }
+
+  .about {
+    width: 90%;
+  }
+
+  .frontendSkills.grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tools.grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .projects.grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects div img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contacts.grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form input,
+  .form textarea {
+    width: 100%;
+  }
+
+  .footer-container.grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
